@@ -1,0 +1,6 @@
+# robots.txt
+# Description: Controls search engine crawling
+User-agent: *
+Disallow: /playground.html
+Allow: /landing.html
+Allow: /
