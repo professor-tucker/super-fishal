@@ -1,0 +1,65 @@
+/* style.css */
+/* Description: Terminal-inspired styling for Superfishal Intelligence with a black background, green text, and fishy accents. */
+
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.logo {
+    margin: 10px auto;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.donate-btn {
+    background-color: #0000FF;
+    color: #FFFF00;
+    border: 2px solid #00FF00;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.donate-btn:hover {
+    background-color: #FFFF00;
+    color: #0000FF;
+}
+
+.donate-info {
+    font-size: 0.9em;
+    color: #FFFF00;
+}
+
+footer {
+    margin-top: 20px;
+}
