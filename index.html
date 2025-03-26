@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!-- Description: "Coming Soon" page for Superfishal Intelligence. Displays a cell-fish logo, product teaser, and donation links with a terminal-inspired design. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superfishal Intelligence - Coming Soon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- SVG Cell-Fish Logo -->
+        <svg width="100" height="100" viewBox="0 0 100 100" class="logo">
+            <!-- Hexagonal cells forming a goldfish shape -->
+            <polygon points="50,20 65,40 50,60 35,40" fill="#FFA500" stroke="#000000" stroke-width="2" />
+            <polygon points="65,40 80,60 65,80 50,60" fill="#FFA500" stroke="#000000" stroke-width="2" />
+            <polygon points="35,40 20,60 35,80 50,60" fill="#FFA500" stroke="#000000" stroke-width="2" />
+            <!-- Tail -->
+            <polygon points="20,60 10,50 10,70" fill="#FFFF00" stroke="#000000" stroke-width="2" />
+        </svg>
+        <h1>Superfishal Intelligence</h1>
+    </header>
+    <main>
+        <p>Swimming your way soon: AI training wheels for the masses! Fun, uplifting, and fishy.</p>
+        <p>Email: <a href="mailto:sellfishcellfish@selfishsailfish.com">sellfishcellfish@selfishsailfish.com</a></p>
+        <button class="donate-btn">Support the Fish!</button>
+        <p class="donate-info">Cash App: $sleepingsilverback | Apple Cash: 503.901.9722</p>
+    </main>
+    <footer>
+        <p><a href="#">Premium Consulting (Coming Soon)</a></p>
+    </footer>
+    <script>
+        // Basic error handling for button click
+        document.querySelector('.donate-btn').addEventListener('click', () => {
+            try {
+                alert('Thanks for supporting the fish! Use Cash App or Apple Cash below.');
+            } catch (e) {
+                console.error('Button click failed:', e);
+            }
+        });
+    </script>
+</body>
+</html>
