@@ -1,6 +1,5 @@
 /* style.css */
-/* Description: Terminal-inspired styling for Superfishal Intelligence with a black background, green text, and fishy accents. */
-
+/* Description: Terminal-inspired styling for all pages */
 body {
     background-color: #000000;
     color: #00FF00;
@@ -9,57 +8,90 @@ body {
     margin: 0;
     padding: 20px;
 }
-
-header {
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-.logo {
-    margin: 10px auto;
-}
-
-main {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-
-a {
-    color: #0000FF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.donate-btn {
+header { margin-bottom: 20px; }
+h1 { font-size: 2em; }
+.logo { margin: 10px auto; }
+main { max-width: 800px; margin: 0 auto; }
+p { font-size: 1.2em; line-height: 1.5; }
+a { color: #0000FF; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.nav-buttons { margin: 20px 0; }
+.btn {
     background-color: #0000FF;
     color: #FFFF00;
     border: 2px solid #00FF00;
     padding: 10px 20px;
     font-size: 1.1em;
     cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
 }
-
-.donate-btn:hover {
-    background-color: #FFFF00;
-    color: #0000FF;
+.btn:hover { background-color: #FFFF00; color: #0000FF; }
+.donate-info { font-size: 0.9em; color: #FFFF00; }
+.hidden { display: none; }
+textarea {
+    background-color: #000000;
+    color: #00FF00;
+    border: 2px solid #00FF00;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    resize: vertical;
 }
-
-.donate-info {
-    font-size: 0.9em;
-    color: #FFFF00;
-}
-
-footer {
+.output-box {
+    background-color: #000000;
+    border: 2px solid #00FF00;
+    padding: 15px;
     margin-top: 20px;
+    text-align: left;
+    min-height: 100px;
 }
+.terms { font-size: 0.8em; color: #FFFF00; margin-top: 20px; }/* style.css */
+/* Description: Terminal-inspired styling for all pages */
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+header { margin-bottom: 20px; }
+h1 { font-size: 2em; }
+.logo { margin: 10px auto; }
+main { max-width: 800px; margin: 0 auto; }
+p { font-size: 1.2em; line-height: 1.5; }
+a { color: #0000FF; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.nav-buttons { margin: 20px 0; }
+.btn {
+    background-color: #0000FF;
+    color: #FFFF00;
+    border: 2px solid #00FF00;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover { background-color: #FFFF00; color: #0000FF; }
+.donate-info { font-size: 0.9em; color: #FFFF00; }
+.hidden { display: none; }
+textarea {
+    background-color: #000000;
+    color: #00FF00;
+    border: 2px solid #00FF00;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    resize: vertical;
+}
+.output-box {
+    background-color: #000000;
+    border: 2px solid #00FF00;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+    min-height: 100px;
+}
+.terms { font-size: 0.8em; color: #FFFF00; margin-top: 20px; }
